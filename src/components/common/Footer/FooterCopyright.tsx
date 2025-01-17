@@ -1,5 +1,4 @@
-import { Link } from "@tanstack/react-router";
-
+import React from "react";
 interface Props extends React.ComponentProps<"div"> {}
 
 export const FooterCopyright = ({ ...props }: Props) => {
