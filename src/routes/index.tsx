@@ -7,10 +7,8 @@ import {
   ContactUs,
   Hero,
   Service,
-  // Team,
-  Testimonials,
-  // WorkingProcess,
-} from "@/pages/landing-page";
+   Testimonials,
+ } from "@/pages/landing-page";
 
 export const Route = createFileRoute("/")({
   component: HomeComponent,
@@ -23,9 +21,7 @@ function HomeComponent() {
      
       <Service />
       <CaseStudies />
-      {/* <WorkingProcess /> */}
-      {/* <Team /> */}
-      <ClientList />
+        <ClientList />
       <Testimonials />
       <ContactUs />
       <Footer />

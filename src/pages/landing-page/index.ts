@@ -4,7 +4,5 @@ export * from "./RootNotFound";
 export * from "./ClientList";
 export * from "./service";
 export * from "./CaseStudies";
-export * from "./Working-Process";
-export * from "./team";
 export * from "./testimonials";
 export * from "./contact-us";
